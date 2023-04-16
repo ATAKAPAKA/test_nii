@@ -1,0 +1,23 @@
+.product_page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .producd_data {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h2 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+}

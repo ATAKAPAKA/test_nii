@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    font-family: "Ubuntu";
+    max-width: 1200px;
+    margin: auto;
+}

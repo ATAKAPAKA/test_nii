@@ -1,0 +1,16 @@
+.company {
+    box-shadow: 0 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+    .title a {
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .company_data{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
